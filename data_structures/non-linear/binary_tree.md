@@ -7,15 +7,15 @@ A binary tree is a non-linear data structure that organizes data by nodes in a h
 Unlike general trees, a binary tree limits each node to having no more than two sub-nodes. Another way of describing this characteristic is that a binary tree has a branching factor of two.
 
                                    15
-                                  /  \
                                  /    \
                                 /      \
-                              13        20
-                             /  \       / \
-                            /    \     /   \
-                           9     14   18   23
-                          / \    / \ / \   / \
-                         n   n  n  n n  n n   n
+                               /        \
+                             13          20
+                            /  \        /  \
+                           /    \      /    \
+                          9     14    18    23
+                         / \    / \  / \    / \
+                        n   n  n  n  n  n  n   n
 
 Binary trees must have a minimum of two levels, the topmost root node and two sub-nodes connected to the root node by branches. There is no limit to the amount of levels a binary tree can have, though search algorithms perform better on shorter trees.
 
